@@ -1,6 +1,5 @@
 const products = [
     {
-        _id: "1",
         name: "Airpods Wireless",
         image: "/images/airpods.jpg",
         description:
@@ -13,7 +12,6 @@ const products = [
         numReviews: 12,
     },
     {
-        _id: "2",
         name: "Sample",
         image: "/images/sample.jpg",
         description:
@@ -26,7 +24,6 @@ const products = [
         numReviews: 20,
     },
     {
-        _id: "3",
         name: "Samsung Galaxy S21",
         image: "/images/phone.jpg",
         description:
@@ -39,7 +36,6 @@ const products = [
         numReviews: 15,
     },
     {
-        _id: "4",
         name: "Sony PlayStation 5",
         image: "/images/playstation.jpg",
         description:
@@ -52,7 +48,6 @@ const products = [
         numReviews: 25,
     },
     {
-        _id: "5",
         name: "Mouse Pro",
         image: "/images/mouse.jpg",
         description:
@@ -65,7 +60,6 @@ const products = [
         numReviews: 18,
     },
     {
-        _id: "6",
         name: "Samsung QLED TV",
         image: "/images/camera.jpg",
         description:
