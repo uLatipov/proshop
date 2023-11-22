@@ -55,4 +55,5 @@ export const {
   savePaymentMethod,
   clearCartItems,
 } = cartSlice.actions;
+
 export default cartSlice.reducer;
