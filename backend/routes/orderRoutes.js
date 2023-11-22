@@ -15,6 +15,6 @@ router.route("/").post(protect, addOrderItems).get(protect, admin, getOrders);
 router.get("/mine", protect, getMyOrders);
 router.put("/:id/deliver", protect, admin, updateOrderToDelivered);
 router.route("/:id/pay").put(protect, updateOrderToPaid);
-router.get("/:id", protect, admin, getOrderById);
+router.get("/:id", protect, getOrderById);
 
 export default router;
